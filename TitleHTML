@@ -3,9 +3,14 @@
     <head>
         <title>Reservia</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="StyleCode.css"><!--Réfère au fichier CSS-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+
+        <!--barre de recherche-->
         <form role="search">
             <div>
               <input type="search" id="maRecherche" name="q"
@@ -14,7 +19,9 @@
               <button>Rechercher</button>
             </div>
           </form>
+
         <h2>Hébergement à Marseille</h2>
+        <h2>Les plus populaires</h2>
         <h2>Activités à Marseille</h2>
         <h3>A propos</h3>
         <h3>Nos hébergements</h3>
